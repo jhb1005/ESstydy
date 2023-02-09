@@ -1,35 +1,13 @@
 {
-    "took": 10,
-    "timed_out": false,
+    "_index": "test",
+    "_id": "1",
+    "_version": 2,
+    "result": "updated",
     "_shards": {
-        "total": 1,
+        "total": 2,
         "successful": 1,
-        "skipped": 0,
         "failed": 0
     },
-    "hits": {
-        "total": {
-            "value": 2,
-            "relation": "eq"
-        },
-        "max_score": 0,
-        "hits": [
-            {
-                "_index": "test",
-                "_id": "4",
-                "_score": 0,
-                "_source": {
-                    "message": "Brown fox brown dog"
-                }
-            },
-            {
-                "_index": "test",
-                "_id": "5",
-                "_score": 0,
-                "_source": {
-                    "message": "Lazy jumping dog"
-                }
-            }
-        ]
-    }
+    "_seq_no": 7,
+    "_primary_term": 3
 }
